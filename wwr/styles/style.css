@@ -1,87 +1,14 @@
-body {
-    background-color: #fcfbfb; 
-}
-
-header {
-    background-color: rgba(20, 30, 13, 0.7);
-}
-
-nav a {
-    color: #333333;
-    text-align: center;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
-    text-decoration: none;
-}
-
-.home-title {
-    color: #2c3e50;
-}
-
-h4 {
-    color: #555555;
-}
-
-.book, .join {
-    color: #333333;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    color: #111111;
-}
-
-.msg h2 {
-    color: #1a1a1a;
-}
-
-.msg p {
-    color: #4d4d4d;
-}
-
-footer {
-    color: #ffffff;
-    background-color: #222222;
-}
-
-footer p {
-    font-size: 1.2em;
-}
-
-footer a {
-    color: #f1c40f;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #e67e22;
-    text-decoration: none;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-}
-
+/* Apply max-width and center the content */
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-#background {
-    height: 725px;
-    background-color: #f0f0f0;
-}
-
-.msg {
-    background-color: #fff8e1;
-}
-
+/* Center text in various sections */
 nav a {
     text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -94,4 +21,131 @@ nav a {
 
 main section {
     text-align: center;
+}
+
+/* Container for background message */
+#background {
+    height: 725px;
+}
+
+/* Set background colors */
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.book, .join {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.book:hover, .join:hover {
+    background-color: #45a049;
+}
+
+#background {
+    background-color: #f2f2f2;
+}
+
+.msg {
+    background-color: #e6e6e6;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #f2f2f2;
+}
+
+footer a:hover {
+    color: #d9c2a3;
+}
+
+/* Set text colors for better readability */
+nav a {
+    color: #fcfbfb;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
+.home-title {
+    color: #333;
+}
+
+h4 {
+    color: #666;
+}
+
+.book, .join {
+    color: white;
+}
+
+.book:hover, .join:hover {
+    color: white;
+}
+
+.msg h2 {
+    color: #333;
+}
+
+.msg p {
+    color: #666;
+}
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: #f2f2f2;
+}
+
+footer a:hover {
+    color: #d9c2a3;
+}
+
+/* Set widths for specific images */
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+/* Remove underline from links */
+nav a {
+    text-decoration: none;
+}
+
+.book, .join {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* Add underline to footer links on hover */
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* Larger font size for footer text */
+footer p {
+    font-size: 1.2em;
 }
