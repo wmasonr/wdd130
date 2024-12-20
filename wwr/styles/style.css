@@ -79,3 +79,19 @@ footer p a:hover {
 .msg {
     background-color: #fff8e1;
 }
+
+nav a {
+    text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
