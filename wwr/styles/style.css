@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@700&display=swap');
-
 body {
     background-color: #fcfbfb;
     font-family: 'Roboto', Arial, sans-serif;
@@ -13,7 +11,7 @@ h2 {
 }
 
 .home-title, .msg h2 {
-    font-family: 'Merriweather', Georgia, serif;
+    font-family: 'Brush Script MT', Georgia, serif;
     font-size: 2em;
 }
 
